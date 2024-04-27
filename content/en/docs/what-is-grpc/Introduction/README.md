@@ -14,7 +14,7 @@
   - ⚠️ can run in any environment & platforms ⚠️
 - by default uses Protocol Buffers
   - using
-    - Interface Definition Language (IDL)
+    - as Interface Definition Language (IDL) -- to define the -- service
     - message interchange format
   - → `protoc` + special gRPC plugin
     - → is generated
