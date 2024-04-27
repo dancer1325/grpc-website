@@ -15,3 +15,17 @@
       - — via — read-write stream
       - client’s stream — operate independently to — server’s stream
       - guaranteed order in stream’s messages  / stream
+
+# Using the API
+* Check '../introduction'
+* gRPC infrastructure
+  - decodes incoming request
+  - execute service methods
+  - encodes service responses
+- gRPC server
+  - implements declared service’s methods     -- _Example:_ `grpc-java` for '../helloworld/HelloWorldServer.java'
+- gRPC client
+  - `stub` OR client
+    - := local object / implements declared service’s methods     -- _Example:_ `grpc-java` for '../helloworld/HelloWorldClient.java'
+      - 👁️— to call — gRPC server👁️
+TODO:
