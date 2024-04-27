@@ -1,0 +1,17 @@
+# Service definition
+- Check '../gRPC section'
+- possible methods to be defined
+  - unary RPCs
+    - == 1! request →  1! response  -- _Example:_ `grpc-java` for 'helloworld.proto'
+  - server streaming RPCs           -- _Example:_ `grpc-java` for 'route_guide.proto'
+    - == 1! request →  stream as response
+      - client reads all stream’s messages
+      - guaranteed order in stream’s messages  / individual RPC call
+  - client streaming RPCs           -- _Example:_ `grpc-java` for 'route_guide.proto'
+    - == several messaged → 1! response
+      - same as server streaming
+  - bidirectional streaming RPCs    -- _Example:_ `grpc-java` for 'route_guide.proto'
+    - == client sends messages & server sends messages
+      - — via — read-write stream
+      - client’s stream — operate independently to — server’s stream
+      - guaranteed order in stream’s messages  / stream
