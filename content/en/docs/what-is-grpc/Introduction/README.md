@@ -1,7 +1,4 @@
 # gRPC
-- can use from protocol buffers
-  - Interface Definition Language (IDL)
-  - message interchange format
 - 👁️ main idea👁️
   - defining a service / specify the methods with arguments & returnTypes
     - **Note:** 👁️ defined in `.proto` files 👁️
@@ -16,6 +13,9 @@
     - stub / methods == methodsInTheServer
   - ⚠️ can run in any environment & platforms ⚠️
 - by default uses Protocol Buffers
+  - using
+    - Interface Definition Language (IDL)
+    - message interchange format
   - → `protoc` + special gRPC plugin
     - → is generated
       - gRPC client code
