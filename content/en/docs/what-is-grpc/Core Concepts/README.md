@@ -28,4 +28,9 @@
   - `stub` OR client
     - := local object / implements declared service’s methods     -- _Example:_ `grpc-java` for '../helloworld/HelloWorldClient.java'
       - 👁️— to call — gRPC server👁️
+
+# sync vs async
+- networks are inherently async
+- depends on Languages -- Check '../languages'
+
 TODO:
