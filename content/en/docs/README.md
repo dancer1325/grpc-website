@@ -11,7 +11,9 @@
 * `protoc`
   * protocol buffer compiler
     * allows
-      * compiling '.proto' files / generate classes
+      * '.proto' files -- are compiled (at build time) -- generating classes / simple
+        * accessors &
+        * methods to serialize & parse
   * how to install it ?
     * via
       * package manager
