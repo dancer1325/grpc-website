@@ -1,12 +1,18 @@
-Our example is a simple route mapping application that lets clients get
-information about features on their route, create a summary of their route, and
-exchange route information such as traffic updates with the server and other
-clients.
+* Example
+  * simple route mapping application /
+    * clients can
+      * get -- information about features | route
+      * create -- summary of their route &
+      * exchange -- route information ( *Example:* traffic updates) -- with 
+        * server &
+        * other clients
 
-With gRPC we can define our service once in a `.proto` file and generate clients
-and servers in any of gRPC's supported languages, which in turn can be run in
-environments ranging from servers inside a large data center to your own tablet —
-all the complexity of communication between different languages and environments is
-handled for you by gRPC. We also get all the advantages of working with protocol
-buffers, including efficient serialization, a simple IDL, and easy interface
-updating.
+* With gRPC, we can
+  * define our service in a `.proto` file
+  * generate clients and servers in any of gRPC's supported languages / 
+    * can be run in environments -- [servers inside a large data center, your own tablet] —
+    * 👁️ gRPC handles for you, ALL the complexity of communication between different languages and environments 👁️
+  * advantages of working with protocol  buffers
+    * efficient serialization,
+    * simple IDL,
+    * easy interface updating
